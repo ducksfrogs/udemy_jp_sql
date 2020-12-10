@@ -6,7 +6,7 @@ SELECT
     p.name product_name,
     od.product_qty qty,
     p.price product_price
-FROM 
+FROM
 	orders o
 INNER JOIN order_details od
 ON o.id = od.order_id
@@ -23,7 +23,7 @@ SELECT
     p.name product_name,
     od.product_qty qty,
     p.price product_price
-FROM 
+FROM
 	orders o
 INNER JOIN order_details od
 ON o.id = od.order_id
